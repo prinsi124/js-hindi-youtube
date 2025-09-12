@@ -56,16 +56,57 @@ const users =[
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
 // property value he kya naii 
 
-console.log(tinderUser.hasOwnProperty('isLogged'));
-
+// console.log(tinderUser.hasOwnProperty('isLogged'));
 
 
 // const obj1 = {1: "a", 2: "b"} = console ma inspect kri ne jova nu
+
+
+
+// objcet de-structure
+
+const course = {
+    coursename: "js in hindi",
+    courseprice: "999",
+    courseInstructor: "prinsi"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: Instructor} = course      // de-structure thaii
+
+// console.log(courseInstructor);
+console.log(Instructor);
+
+
+// // react method 
+
+// const navbar = ({company}) => {
+
+// }
+
+// navbar(company = "prinsi")
+
+
+// API backend thi ave aene kevi rite access krvu JSON ma
+
+// {                            // key ko bhi string me likhana he ""
+//     "name": "Prinsi",             
+//     "coursename": "js in hindi",
+//     "couserprice": "free"
+// }
+
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
