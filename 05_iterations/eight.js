@@ -9,7 +9,7 @@ const myNums = [1, 2, 3]
 
 
 
-// arrow fun
+// arrow funh
 
 const myTotal = myNums.reduce( (acc, curr) => acc + curr, 0)
 
